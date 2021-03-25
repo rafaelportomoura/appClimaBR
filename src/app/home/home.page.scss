@@ -5,3 +5,8 @@ ion-toolbar {
     letter-spacing: 8px;
   }
 }
+
+ion-searchbar {
+  --box-shadow: none;
+  border-bottom: 1px solid var(--ion-color-primary);
+}

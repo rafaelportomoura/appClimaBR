@@ -1,3 +1,4 @@
+import { CityDetailsComponent } from './components/city-details/city-details.component';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IonicModule } from '@ionic/angular';
@@ -14,6 +15,6 @@ import { HomePageRoutingModule } from './home-routing.module';
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage]
+  declarations: [HomePage,CityDetailsComponent],
 })
 export class HomePageModule {}
