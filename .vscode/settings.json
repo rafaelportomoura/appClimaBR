@@ -1,0 +1,9 @@
+{
+    "editor.defaultFormatter": "HookyQR.beautify",
+    "cSpell.words": [
+        "br",
+        "clima"
+    ],
+    "editor.formatOnSave": true,
+    "files.autoSave": "onFocusChange",
+}
