@@ -2,6 +2,8 @@
 
 Essa aplicação foi desenvolvida pelo professor PAULO AFONSO PARREIRA JUNIOR, na disciplina de Modelagem e Implementação de Software da UFLA.
 
+[Repositório original](https://github.com/gcc132-2020-2/climabr)
+
 # Clima BR
 
 Uma aplicação simples para consulta à previsão do tempo de cidades brasileiras.
