@@ -1,0 +1,24 @@
+<ion-header class="ion-no-border">
+  <ion-toolbar color="primary">
+    <ion-buttons slot="start">
+      <ion-back-button text="voltar" defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row class="ion-align-items-center">
+      <ion-col class="ion-text-center">
+        <p>Lavras | Quinta, 04/03</p>
+        <div class="temperature">
+          12<sup><small>ºC</small></sup>
+        </div>
+        <img src="https://image.freepik.com/vetores-gratis/tempestade_1975-453.jpg" width="100px" />
+        <h3>TEMPESTADE</h3>
+        <p> ☂ 50% | ♨ 30%</p>
+        <ion-button color="success" (click)="onSeeDetails()"> Ver Detalhes </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
