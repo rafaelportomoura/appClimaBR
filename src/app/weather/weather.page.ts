@@ -3,7 +3,7 @@ import { ActivatedRoute } from '@angular/router';
 import { ModalController } from '@ionic/angular';
 import { City } from 'src/domain/entities/city';
 import { Weather } from 'src/domain/entities/weather';
-import { WeatherService } from 'src/domain/services/weather.service';
+import { LoadWeatherService } from 'src/domain/services/load-weather.service'
 import { WeatherDetailsComponent } from './components/weather-details/weather-details.component';
 
 @Component({
@@ -21,13 +21,31 @@ export class WeatherPage {
   constructor(
     private readonly modalCtrl: ModalController,
     private readonly activatedRoute: ActivatedRoute,
-    private readonly weatherService: WeatherService
+    private readonly weatherService: LoadWeatherService
   ) {}
 
   ionViewDidEnter() {
     const id = this.activatedRoute.snapshot.paramMap.get('id');
     this.loadWeather(Number.parseInt(id));
   }
+  get currentDate() {
+    const today = new Date();
+    const weekDays = [
+      'Segunda',
+      'Terça',
+      'Quarta',
+      'Quinta',
+      'Sexta',
+      'Sábado',
+      'Domingo',
+    ];
+    const day = today.getDate().toString().padStart(2, '0');
+    const month = (today.getMonth() + 1).toString().padStart(2, '0');
+
+    return `${weekDays[today.getDay()]}, ${day}/${month}`;
+  }
+
+
 
   async loadWeather(cityId: number) {
     try {
