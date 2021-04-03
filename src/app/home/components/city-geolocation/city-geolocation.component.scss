@@ -1,0 +1,14 @@
+h2 {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-justify: center;
+  line-height: 58px;
+  margin: 0 0 0 10px;
+  color: --ion-color-primary;
+}
+
+ion-item {
+  --padding-bottom: 0;
+  --padding-top: 0;
+}

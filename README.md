@@ -2,6 +2,8 @@
 
 Essa aplicação foi desenvolvida pelo professor PAULO AFONSO PARREIRA JUNIOR, na disciplina de Modelagem e Implementação de Software da UFLA.
 
+A parte de localização atual foi desenvolvida por mim.
+
 [Repositório original](https://github.com/gcc132-2020-2/climabr)
 
 # Clima BR

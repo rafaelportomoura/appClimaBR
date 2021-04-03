@@ -7,6 +7,7 @@ ion-title {
 ion-searchbar {
   --box-shadow: none;
   border-bottom: solid 1px var(--ion-color-light);
+  width: 80%;
 }
 
 ion-grid,
@@ -24,4 +25,9 @@ ion-row {
 ion-button {
   --box-shadow: none;
   width: 200px;
+}
+
+.search-and-localization {
+  display: flex;
+  flex-direction: row;
 }

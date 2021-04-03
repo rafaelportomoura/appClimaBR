@@ -5,6 +5,7 @@ import { FormsModule } from '@angular/forms';
 import { HomePage } from './home.page';
 
 import { HomePageRoutingModule } from './home-routing.module';
+import { CityGeolocationComponent } from './components/city-geolocation/city-geolocation.component';
 import { CityDetailsComponent } from './components/city-details/city-details.component';
 import { SharedModule } from '../shared/modules/shared/shared.module';
 
@@ -16,6 +17,6 @@ import { SharedModule } from '../shared/modules/shared/shared.module';
     HomePageRoutingModule,
     SharedModule,
   ],
-  declarations: [HomePage, CityDetailsComponent],
+  declarations: [HomePage, CityDetailsComponent, CityGeolocationComponent],
 })
 export class HomePageModule {}
