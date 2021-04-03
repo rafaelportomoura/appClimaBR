@@ -29,4 +29,9 @@ npm-debug.log*
 /platforms
 /plugins
 /www
-node_modules
+
+api-config.ts
+
+.firebase
+
+*climabr/

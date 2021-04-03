@@ -1,4 +1,6 @@
+import { OPEN_WEATHER_CONFIG } from './api-config';
+
 export const environment = {
   production: true,
-  api_key: '<your-openweather-api-key>'
+  api_config: OPEN_WEATHER_CONFIG,
 };

@@ -14,8 +14,8 @@ export class FakeCityRepository extends CityRepository {
     },
     {
       id: 2,
-      name: 'Divinópolis',
-      state: 'MG',
+      name: 'São Carlos',
+      state: 'SP',
       coord: {
         latitude: 1,
         longitude: 1,
@@ -23,8 +23,17 @@ export class FakeCityRepository extends CityRepository {
     },
     {
       id: 3,
-      name: 'Moeda',
-      state: 'MG',
+      name: 'Jataí',
+      state: 'GO',
+      coord: {
+        latitude: 1,
+        longitude: 1,
+      },
+    },
+    {
+      id: 4,
+      name: 'Lavras do Sul',
+      state: 'RS',
       coord: {
         latitude: 1,
         longitude: 1,
