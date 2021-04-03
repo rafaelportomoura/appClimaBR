@@ -34,5 +34,9 @@ Para abrir a aplicação, execute o comando:
 
 `ionic serve`
 
+Para a funcionalidade geolocalização funcionar, é necessário permitir o uso da localização no seu navegador
+
+![Permissão de localização](./README.img/loc.png)
+
 Enjoy!
 
